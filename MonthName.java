@@ -1,5 +1,7 @@
 package ApnaCollege;
 
+import java.util.Scanner;
+
 public class MonthName {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -44,6 +46,7 @@ public class MonthName {
             default:
                 System.out.println("Invalid Input");
         }
+        sc.close();
     }
 
 }
